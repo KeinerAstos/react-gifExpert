@@ -10,7 +10,7 @@ export const GifExpertApp = () =>{
             alert('No puedes poner algo que ya esta en lista');
             return;
         } 
-        setCategoria ([...categoria, New_CATEGORI]) ;
+        setCategoria ([New_CATEGORI,...categoria]) ;
         
     };
 
