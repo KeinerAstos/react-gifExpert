@@ -1,5 +1,5 @@
 import { useState } from "react"
-
+    
 
 export const Add_category = ({onAdCategory}) => {
 
@@ -20,11 +20,11 @@ export const Add_category = ({onAdCategory}) => {
         setValor('');
     }
     return (
-        <form onSubmit={onZubmit}>
+        <form onSubmit={onZubmit} id="formulario-input">
             <input 
         type="text" 
         name="" 
-        id=""
+        id="inputsito"
         placeholder="Buscar algo" 
         value={valor}
         onChange={onTChange}/>

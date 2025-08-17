@@ -16,7 +16,10 @@ export const GifExpertApp = () =>{
 
     return (
         <>
-        <Add_category onAdCategory={onAddCategory}  />
+        <header>
+            <Add_category onAdCategory={onAddCategory}  />
+        </header>
+    
         <ol>
             {
             categoria.map( categori =>{
